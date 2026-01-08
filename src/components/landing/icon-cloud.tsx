@@ -585,8 +585,8 @@ export default function Icon() {
 
               {/* Content */}
               <div className="flex-1 min-w-0">
-                <h3 className="text-lg font-semibold mb-1">{step.title}</h3>
-                <p className="text-sm text-muted-foreground leading-relaxed">
+                <h3 className="text-lg font-semibold mb-1 tracking-tight">{step.title}</h3>
+                <p className="text-sm text-muted-foreground leading-relaxed tracking-tight">
                   {step.description}
                 </p>
               </div>
