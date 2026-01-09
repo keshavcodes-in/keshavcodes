@@ -41,7 +41,7 @@ export default function Navbar() {
                 <Link
                   key={item.label}
                   href={item.href}
-                  className={`transition-all duration-300 ease-in-out hover:underline hover:decoration-blue-500 hover:underline-offset-4 
+                  className={`transition-all font-medium duration-300 ease-in-out hover:underline hover:decoration-blue-500 hover:underline-offset-4 
                     ${isActive ? 'underline decoration-blue-400 underline-offset-4 text-blue-500' : 'text-inherit'}`}
                 >
                   {item.label}
