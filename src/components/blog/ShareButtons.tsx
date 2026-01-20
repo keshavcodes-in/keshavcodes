@@ -1,9 +1,9 @@
 'use client';
 
 import { Button } from '@/components/ui/button';
-import { Share2, Copy } from 'lucide-react'; 
-import { FaXTwitter, FaLinkedin } from 'react-icons/fa6';
+import { Copy, Share2 } from 'lucide-react';
 import { useEffect, useState } from 'react';
+import { FaLinkedin, FaXTwitter } from 'react-icons/fa6';
 import { toast } from 'sonner';
 
 interface ShareButtonsProps {
@@ -56,16 +56,16 @@ export function ShareButtons({ title }: ShareButtonsProps) {
     const text = `${title} – ${url}`;
     window.open(
       `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`,
-      '_blank'
+      '_blank',
     );
   };
 
   const shareOnLinkedin = () => {
     window.open(
       `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(
-        url
+        url,
       )}`,
-      '_blank'
+      '_blank',
     );
   };
 
@@ -86,15 +86,15 @@ export function ShareButtons({ title }: ShareButtonsProps) {
         </div>
 
         {/* Right: buttons */}
-        <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
+        <div className="grid grid-cols-2 gap-2 sm:flex sm:flex-row sm:items-center">
           <Button
             variant="outline"
             size="sm"
             onClick={handleCopy}
-            className="justify-center gap-2 sm:min-w-[130px] cursor-pointer"
+            className="col-span-2 sm:col-auto justify-center gap-2 sm:min-w-[130px] cursor-pointer"
           >
             <Copy className="h-4 w-4" />
-            <span>Copy link</span>
+            <span className="whitespace-nowrap">Copy link</span>
           </Button>
 
           <Button

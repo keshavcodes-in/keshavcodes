@@ -37,7 +37,7 @@ export default function BlogPage() {
           <h1 className="text-4xl font-bold tracking-tight lg:text-5xl">
             Blogs
           </h1>
-          <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
+           <p className="mx-auto max-w-2xl text-base leading-relaxed text-muted-foreground px-4 sm:text-lg sm:px-0">
            Exploring ideas, tutorials, and insights from the world of engineering.
           </p>
         </div>

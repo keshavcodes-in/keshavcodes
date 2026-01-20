@@ -73,7 +73,7 @@ export const BlogComponents = {
     children: React.ReactNode;
     [key: string]: unknown;
   }) => (
-    <ul className="mb-6 ml-6 list-disc space-y-3" {...props}>
+    <ul className="mb-6 ml-2 text-base sm:text-lg list-disc space-y-3" {...props}>
       {children}
     </ul>
   ),
@@ -84,7 +84,7 @@ export const BlogComponents = {
     children: React.ReactNode;
     [key: string]: unknown;
   }) => (
-    <ol className="mb-6 ml-6 list-decimal space-y-3" {...props}>
+    <ol className="mb-6 ml-2 text-base sm:text-lg list-decimal space-y-3" {...props}>
       {children}
     </ol>
   ),

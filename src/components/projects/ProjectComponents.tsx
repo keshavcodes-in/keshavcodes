@@ -235,7 +235,7 @@ export const ProjectComponents = {
     children: React.ReactNode;
     [key: string]: unknown;
   }) => (
-    <ul className="mb-4 ml-6 list-disc space-y-2" {...props}>
+    <ul className="mb-4 ml-2 text-base sm:text-lg list-disc space-y-2" {...props}>
       {children}
     </ul>
   ),
@@ -246,7 +246,7 @@ export const ProjectComponents = {
     children: React.ReactNode;
     [key: string]: unknown;
   }) => (
-    <ol className="mb-4 ml-6 list-decimal space-y-2" {...props}>
+    <ol className="mb-4 ml-2 text-base sm:text-lg list-decimal space-y-2" {...props}>
       {children}
     </ol>
   ),

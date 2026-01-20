@@ -1,8 +1,8 @@
 import Container from '@/components/common/Container';
 import { ProjectList } from '@/components/projects/ProjectList';
 import { Separator } from '@/components/ui/separator';
-import { projects } from '@/config/Projects';
 import { generateMetadata as getMetadata } from '@/config/Meta';
+import { projects } from '@/config/Projects';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -15,9 +15,9 @@ export const metadata: Metadata = {
       follow: true,
       'max-video-preview': -1,
       'max-image-preview': 'large',
-      'max-snippet': -1
-    }
-  }
+      'max-snippet': -1,
+    },
+  },
 };
 
 export default function ProjectsPage() {
@@ -29,7 +29,7 @@ export default function ProjectsPage() {
           <h1 className="text-4xl font-bold tracking-tight lg:text-5xl">
             Projects
           </h1>
-          <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
+          <p className="mx-auto max-w-2xl text-base leading-relaxed text-muted-foreground px-4 sm:text-lg sm:px-0">
             Showcasing the projects that helped me learn, experiment, and ship.
           </p>
         </div>
