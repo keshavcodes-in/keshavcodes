@@ -216,7 +216,7 @@ const useCanvasCursor = () => {
       document.body.removeEventListener('orientationchange', resizeCanvas);
       window.removeEventListener('resize', resizeCanvas);
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+   
   }, []);
 };
 
