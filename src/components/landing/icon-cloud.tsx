@@ -500,7 +500,7 @@ const DeployPipeline = () => {
                 Deployed successfully
               </p>
               <p className="text-xs text-muted-foreground mt-0.5 font-mono">
-                keshavcodes.com
+                keshavcodes.in
               </p>
             </div>
           </div>

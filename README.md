@@ -30,7 +30,7 @@ Clone the repository and get running locally in minutes.
 
 # Clone this repository
 
-git clone https://github.com/keshav-builds/keshavcodes.git
+git clone https://github.com/keshavcodes-in/keshavcodes.git
 
 # Navigate into the project
 

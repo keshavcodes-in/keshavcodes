@@ -3,8 +3,8 @@ export const footerConfig = {
   text: 'Built with ❤️ by',
   copyright: 'All rights reserved.',
   socials: {
-    x: 'https://x.com/keshav_inTech',
-    github: 'https://github.com/keshav-builds',
+    x: 'https://x.com/heyKeshavCodes',
+    github: 'https://github.com/keshavcodes-in',
     email: 'developerkeshav200@gmail.com',
   },
 };

@@ -59,7 +59,7 @@ export const socialLinks = [
 
   {
     name: 'Github',
-    href: 'https://github.com/keshav-builds',
+    href: 'https://github.com/keshavcodes-in',
     icon: <Github />,
   },
   {

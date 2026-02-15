@@ -18,8 +18,8 @@ export const siteConfig = {
   ogImage: '/meta/opengraph-image.png',
   author: {
     name: about.name,
-    twitter: '@keshav_inTech',
-    github: 'keshav-builds',
+    twitter: '@heyKeshavCodes',
+    github: 'keshavcodes-in',
   },
   keywords: [
     'portfolio',
